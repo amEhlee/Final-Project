@@ -1,9 +1,14 @@
-
+/**
+ * Here is the base game design for my rpgs game. 
+ * This was used to get a basic idea for the concept and how I wanted it to play from the console
+ * Hardest points were figuring out how to a 2d array for a map. 
+ * So think of this as the test run! Just to get the player moving ~
+ */
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class testr {
+public class BaseGameDesign {
 
 	static char w = '~'; // w stands for walls as shown below this is for convenience
 	private static char[][] map =
